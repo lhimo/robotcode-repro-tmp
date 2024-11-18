@@ -1,0 +1,2 @@
+*** Variables ***
+${shared.variable}  test

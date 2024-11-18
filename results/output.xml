@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.18 on darwin)" generated="20241118 15:17:06.638" rpa="false" schemaversion="4">
+<suite id="s1" name="Prova" source="/Users/leonardoproperzi/Developer/prova">
+<suite id="s1-s1" name="Suite1" source="/Users/leonardoproperzi/Developer/prova/suite1">
+<suite id="s1-s1-s1" name="Test1" source="/Users/leonardoproperzi/Developer/prova/suite1/test1.robot">
+<test id="s1-s1-s1-t1" name="First Test Case" line="7">
+<kw name="Keyword One" library="keywords1">
+<kw name="Log" library="BuiltIn">
+<arg>keyword 1: ${shared1.variable1} from shared 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20241118 15:17:06.669" level="INFO">keyword 1: test1 from shared 1</msg>
+<status status="PASS" starttime="20241118 15:17:06.668" endtime="20241118 15:17:06.669"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>keyword 2: ${shared2.variable2} from shared 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20241118 15:17:06.670" level="INFO">keyword 2: test2 from shared 1</msg>
+<status status="PASS" starttime="20241118 15:17:06.669" endtime="20241118 15:17:06.670"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>keyword: ${shared.variable} from shared 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20241118 15:17:06.670" level="INFO">keyword: test from shared 1</msg>
+<status status="PASS" starttime="20241118 15:17:06.670" endtime="20241118 15:17:06.670"/>
+</kw>
+<status status="PASS" starttime="20241118 15:17:06.668" endtime="20241118 15:17:06.670"/>
+</kw>
+<kw name="Keyword Two" library="keywords2">
+<kw name="Log" library="BuiltIn">
+<arg>keyword 2: ${shared2.variable2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20241118 15:17:06.672" level="INFO">keyword 2: test2</msg>
+<status status="PASS" starttime="20241118 15:17:06.671" endtime="20241118 15:17:06.672"/>
+</kw>
+<status status="PASS" starttime="20241118 15:17:06.671" endtime="20241118 15:17:06.672"/>
+</kw>
+<kw name="Keyword Test" library="keywords">
+<kw name="Log" library="BuiltIn">
+<arg>keyword: ${shared.variable}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20241118 15:17:06.673" level="INFO">keyword: test</msg>
+<status status="PASS" starttime="20241118 15:17:06.672" endtime="20241118 15:17:06.673"/>
+</kw>
+<status status="PASS" starttime="20241118 15:17:06.672" endtime="20241118 15:17:06.673"/>
+</kw>
+<status status="PASS" starttime="20241118 15:17:06.668" endtime="20241118 15:17:06.673"/>
+</test>
+<status status="PASS" starttime="20241118 15:17:06.660" endtime="20241118 15:17:06.674"/>
+</suite>
+<status status="PASS" starttime="20241118 15:17:06.659" endtime="20241118 15:17:06.675"/>
+</suite>
+<status status="PASS" starttime="20241118 15:17:06.642" endtime="20241118 15:17:06.676"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Prova">Prova</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Suite1">Prova.Suite1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Test1">Prova.Suite1.Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
